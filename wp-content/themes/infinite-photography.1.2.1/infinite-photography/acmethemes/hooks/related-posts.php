@@ -56,7 +56,7 @@ if ( !function_exists('infinite_photography_related_post_below') ) :
 	        if( !empty( $infinite_photography_related_title ) ){
 	            ?>
                 <h2 class="widget-title text-center">
-			        <?php echo esc_html( $infinite_photography_related_title ); ?>
+			        Relacionados
                 </h2>
                 <?php
             }

@@ -31,6 +31,7 @@ define('DB_PASSWORD', '123');
 /** Nome do host do MySQL */
 define('DB_HOST', 'localhost');
 
+//Alteração teste
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8');
 

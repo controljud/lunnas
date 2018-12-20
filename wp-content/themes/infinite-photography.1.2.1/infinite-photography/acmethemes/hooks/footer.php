@@ -47,11 +47,6 @@ if ( ! function_exists( 'infinite_photography_footer' ) ) :
                     <?php if( isset( $infinite_photography_customizer_all_values['infinite-photography-footer-copyright'] ) ): ?>
                         <p><?php echo wp_kses_post( $infinite_photography_customizer_all_values['infinite-photography-footer-copyright'] ); ?></p>
                     <?php endif; ?>
-                    <div class="site-info">
-                    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'infinite-photography' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'infinite-photography' ), 'WordPress' ); ?></a>
-                    <span class="sep"> | </span>
-                    <?php printf( esc_html__( 'Theme: %1$s by %2$s', 'infinite-photography' ), 'Infinite Photography ', '<a href="http://www.acmethemes.com/" rel="designer">Acme Themes</a>' ); ?>
-                    </div><!-- .site-info -->
                 </div>
             </div><!-- footer-wrapper-->
         </footer><!-- #colophon -->
