@@ -61,6 +61,9 @@ if ( !function_exists('infinite_photography_feature_slider') ) :
                 <?php infinite_photography_display_feature_slider(); ?>
             </ul>
         </div>
+        <div class="cst-testimonial">
+            <?php echo do_shortcode("[TML]"); ?>
+        </div>
         <?php
     }
 endif;
