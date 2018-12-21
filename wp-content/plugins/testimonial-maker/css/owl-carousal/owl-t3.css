@@ -1,0 +1,71 @@
+.testimonial{
+		text-align: center;
+		}
+		.description{
+		line-height: 35px;
+		margin-bottom: 30px;
+		padding:0px 11%;
+		position: relative;
+		font-size: 18px
+		}
+		.description:before{
+		content: "\f10d";
+		font-family: 'FontAwesome';
+		display: inline-block;
+		position: absolute;
+		top: 8px;
+		left: 2%;
+		color:#3498db;
+		font-size: 36px;
+		}
+		.description:after{
+		content: "\f10e";
+		font-family: 'FontAwesome';
+		display: inline-block;
+		position: absolute;
+		top: 8px;
+		right: 2%;
+		color:#3498db;
+		font-size: 36px;
+		}
+		.pic{
+		width: 94px;
+		height: 94px;
+		margin: 0 auto;
+		}
+		.pic img{
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+		}
+		.testimonial-title{
+		font-weight: bolder;
+		text-transform: capitalize;
+		font-size: 28px
+		}
+		.testimonial .testimonial-designation{
+		display: block;
+		font-weight: 700;
+		margin-top: 20px;
+		font-size: 24px;
+		}
+		.testimonial .postt{
+			line-height: 55px;
+			font-size: 15px;
+		}
+		.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+		background: #3498db;
+		}
+		.owl-theme .owl-controls .owl-page span{
+		opacity: 1;
+		}
+		@media screen and (max-width: 480px) {
+		.description{
+		font-size:19px;
+		line-height: 29px;
+		}
+		.description:before,
+		.description:after{
+		font-size: 25px;
+		}
+		}

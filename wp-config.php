@@ -32,7 +32,7 @@ define('DB_USER', 'u592459530_isaik'); //Produção
 define('DB_PASSWORD', '2R7vE31aknfA'); //Produção
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '/localhost'); //Local
 
 //Alteração teste
 /** Charset do banco de dados a ser usado na criação das tabelas. */
